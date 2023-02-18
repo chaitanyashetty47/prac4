@@ -1,0 +1,15 @@
+<div class="main">
+
+  <h3>CALCULATOR</h3>
+  <p>Number 1<input type = "number" name="num1" [(ngModel)]="num1"> </p>
+  <p>Number 2<input type="number" name="num2" [(ngModel)]="num2"> </p>
+  <br>
+  <button (click)="add()">ADD</button>
+  <button (click)="subtract()">SUBTRACT</button>
+  <button (click)="multi()">MULTPLICATION</button>
+  <button (click)="div()">DIVISION</button>
+  <button (click)="clear()">CLEAR</button>
+  
+  <h3>Result: <span style="color:rgb(209, 41, 41)">{{num3}} {{prec}} </span></h3>
+  
+  </div>
